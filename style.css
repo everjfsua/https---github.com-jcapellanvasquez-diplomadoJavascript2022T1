@@ -1,0 +1,20 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url('/librerias/bootstrap/dist/css/bootstrap.min.css');
+
+:root{
+
+    --color-black: #25291C;
+    --color-white: #FCFCFC;
+    --color-blue: #083D77;
+    --color-orange: #FF570A;
+}
+
+html {
+    font-size: 16px;
+}
+body {
+
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
