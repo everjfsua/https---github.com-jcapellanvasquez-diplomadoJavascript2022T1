@@ -29,7 +29,6 @@ window.addEventListener('load', function(event) {
         const amount = +event.target.elements['amount'].value;
         const fecha = new Date(event.target.elements['fecha'].value) || new Date;
        
-        debugger
           
         
             filterData = data.filter(tran => {
