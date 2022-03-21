@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/librerias/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>Ingresos</title>
+    <script defer src="js/data.js"></script>
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/ingresos.js"></script>
+    <script defer src="js/cuentas.js"></script>
+    <script defer src="js/almacen_local.js"></script>
+
+ 
+    
+</head>
+<body>
+      <div id="menu"></div>
+     
+      <main class="container-fluid">
+        
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-4"> 
+               
+                <div class="card my-5">
+                    <div class="card-header">
+                        <h3 class="card-title">Registro de Ingresos</h3>
+                    </div>
+                    <div class="card-body">
+                
+
+                       <form id="mi-form">
+                         <div class="mb-3">
+                           <label class="form-label" for="listado-tipos">Cuenta</label>
+                              <select id="listado-tipos" class="form-select" 
+                                 name="cuenta"
+                                 aria-label="Default select example">
+                              </select>
+                          </div>
+
+                          <div class="mb-3">
+                             <label for="exampleInputPassword1" class="form-label">Monto</label>
+                             <input type="number" class="form-control" name="amount" id="amount">
+                          </div>
+
+                          <div class="mb-3">
+                             <label for="exampleInputPassword1" class="form-label">Fecha</label>
+                             <input type="date" class="form-control" name="fecha" id="fecha">
+                          </div>
+
+                          <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Notas</label>
+                                <textarea
+                                  placeholder="notas...." 
+                                  class="form-control"
+                                  name="notas"
+                                  id="notas">
+                               </textarea>
+                          </div>
+
+                          <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary">Salvar</button>
+                          </div>
+                  </form>
+              </div>
+            </div>
+        </main>
+</body>
+</html>
